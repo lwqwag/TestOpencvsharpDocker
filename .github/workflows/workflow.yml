@@ -1,6 +1,8 @@
 name: Docker mcr.microsoft.com/dotnet/sdk:6.0-focal
 
 on:
+  push:
+    branches: [ "main" ]
   pull_request:
     types: [synchronize, opened]
 
